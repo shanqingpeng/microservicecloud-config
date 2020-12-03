@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: -test
+    active: -dev
 
 ---
 
@@ -14,7 +14,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource                # 数据源类型
     driver-class-name: org.gjt.mm.mysql.Driver                  # mysql 驱动包
-    url: jdbc:mysql://localhost/springcloud01?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost/springcloud03?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     dbcp2:
