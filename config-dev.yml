@@ -1,4 +1,4 @@
 spring:
   profiles: dev     # 开发环境
   application:
-    name: cloud-config-server-3344-version-01
+    name: cloud-config-server-3344-version-02
