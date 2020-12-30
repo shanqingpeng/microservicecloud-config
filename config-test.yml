@@ -1,4 +1,4 @@
 spring:
-  profiles: dev     # 开发环境
+  profiles: test      # 测试环境
   application:
     name: cloud-config-server-3344
